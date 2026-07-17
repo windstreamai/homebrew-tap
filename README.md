@@ -1,2 +1,2 @@
-# homebrew-wind
+# homebrew-tap
 Wind CLI Homebrew distribution
