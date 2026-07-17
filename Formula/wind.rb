@@ -2,7 +2,7 @@
 # This v0.3.0 formula was steward-authored as the pipeline's reference template
 # (manual publish rehearsal, 2026-07-17). A hand edit after v0.3.1 is drift.
 class Wind < Formula
-  desc "Wind Stream CLI — brackets a piece of work and connects it to Wind Stream"
+  desc "CLI for bracketing work sessions and connecting them to Wind Stream"
   homepage "https://github.com/windstreamai/wind-cli"
   version "0.3.0"
 
