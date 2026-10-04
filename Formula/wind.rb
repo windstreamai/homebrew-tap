@@ -1,27 +1,27 @@
-# Generated surface — written by the wind publish pipeline from tag v0.3.10.
+# Generated surface — written by the wind publish pipeline from tag v0.4.0.
 # A hand edit is drift by definition; changes belong in the generator
 # (scripts/generate-formula.ts in the source repo).
 class Wind < Formula
   desc "CLI for bracketing work sessions and connecting them to Wind Stream"
   homepage "https://github.com/windstreamai/wind-cli"
-  version "0.3.10"
+  version "0.4.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/windstreamai/wind-cli/releases/download/v0.3.10/wind-darwin-arm64"
-      sha256 "989671c6ab8a5a6ecf4c56aa0192790e464437be47f4fb83dc60eab73e887ed8"
+      url "https://github.com/windstreamai/wind-cli/releases/download/v0.4.0/wind-darwin-arm64"
+      sha256 "6bd960cdcf5a0cf266c33ea1b71c8658531a6ae9f717397e411b2b51dc33795d"
     end
     on_intel do
-      url "https://github.com/windstreamai/wind-cli/releases/download/v0.3.10/wind-darwin-x64"
-      sha256 "440c2a3b03f47c67ece180feb2b162462f4c6016a6021025d47b110342eab44e"
+      url "https://github.com/windstreamai/wind-cli/releases/download/v0.4.0/wind-darwin-x64"
+      sha256 "e43a72a384795b0f0696b9b7edac4f6f1f62f5b58ca6850911c84282fb850a4d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/windstreamai/wind-cli/releases/download/v0.3.10/wind-linux-x64"
-      sha256 "60318811d931f44c62fd21c0b056439425295b6775ffb4983e7f1d11cede9acd"
+      url "https://github.com/windstreamai/wind-cli/releases/download/v0.4.0/wind-linux-x64"
+      sha256 "4a0d68c168f2db0032fde80dc0b067570245146654c782890d80867fe9983095"
     end
   end
 
